@@ -33,7 +33,7 @@ Al final se levantara un servidor que se indicara en la terminal o en el ide, do
   manera:
   
   ```sh
-$ cd /ruta/24-Age-Microservice/
+$ cd /ruta/23-Age-Microservice/
 $ mvn clean package -DskipTests
 ```
 
@@ -42,23 +42,23 @@ Una vez compilado el proyecto es necesario levantar los perfiles local,ribbon-ap
 - Perfil local
 
  ```sh
-$ cd /ruta/24-Age-Microservice/
-$ java -jar target/24-Age-Microservice-0.0.1-SNAPSHOT.jar
+$ cd /ruta/23-Age-Microservice/
+$ java -jar target/23-Age-Microservice-0.0.1-SNAPSHOT.jar
 ```
 ![alt text](https://github.com/Erickjgarciap/Tarea3/blob/master/Inicioagelocal.png)
 
 -Perfil ribbon-api
 
  ```sh
-$ cd /ruta/24-Age-Microservice/
-$ java -jar target/24-Age-Microservice-0.0.1-SNAPSHOT.jar --spring.profiles.active=ribbon-api
+$ cd /ruta/23-Age-Microservice/
+$ java -jar target/23-Age-Microservice-0.0.1-SNAPSHOT.jar --spring.profiles.active=ribbon-api
 ```
 ![alt text](https://github.com/Erickjgarciap/Tarea3/blob/master/ageribonapi.png)
 
 -Perfil load-balanced-rest-template
  ```sh
-$ cd /ruta/24-Age-Microservice/
-$ java -jar target/24-Age-Microservice-0.0.1-SNAPSHOT.jar --spring.profiles.active=load-balanced-rest-template
+$ cd /ruta/23-Age-Microservice/
+$ java -jar target/23-Age-Microservice-0.0.1-SNAPSHOT.jar --spring.profiles.active=load-balanced-rest-template
 ```
 ![alt text](https://github.com/Erickjgarciap/Tarea3/blob/master/agebalanced.png)
 
