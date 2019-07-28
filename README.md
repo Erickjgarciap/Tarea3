@@ -10,9 +10,33 @@ a cotinuacion se listan los proyectos involucrados de la practica 23.
   
   Para compilar el proyecto es necesario tener los otros proyectos de la practica 23 ya iniciados.
   
+  # Compilar el proyecto Users microservice!
+  - Descargar el proyecto 23-Users-microservice en una ruta especifica, para compilarlo se realiza de la siguiente 
+  manera:
+  
+  ```sh
+$ cd /ruta/23-Users-microservice/
+$ mvn clean package -DskipTests
+```
+- El proyecto se ejecuta asi, siempre en la misma ruta donde lo compilaste antes
+```sh
+$ java -jar target/23-Users-microservice-0.0.1-SNAPSHOT.jar
+```
+  # Compilar el proyecto Uppercase microservice!
+  - Descargar el proyecto 23-Uppercase-microservice en una ruta especifica, para compilarlo se realiza de la siguiente 
+  manera:
+  
+  ```sh
+$ cd /ruta/23-Uppercase-microservice/
+$ mvn clean package -DskipTests
+```
+- El proyecto se ejecuta asi, siempre en la misma ruta donde lo compilaste antes
+```sh
+$ java -jar target/23-Uppercase-microservice-0.0.1-SNAPSHOT.jar
+```
  
 # Compilar el proyecto random microservice!
-  - Descargar el proyecto com.microservicios8.employee en una ruta especifica, para ejecutarlo se realiza de la siguiente 
+  - Descargar el proyecto 23-Random-microservice en una ruta especifica, para para compilarlo se realiza de la siguiente 
   manera:
   
   ```sh
@@ -29,7 +53,7 @@ Al final se levantara un servidor que se indicara en la terminal o en el ide, do
 
 # Compilar el proyecto Age microservice!
 
- - Descargar el proyecto com.microservicios8.employee en una ruta especifica, para ejecutarlo se realiza de la siguiente 
+ - Descargar el proyecto 23-Age-Microservice en una ruta especifica, para para compilarlo se realiza de la siguiente 
   manera:
   
   ```sh
